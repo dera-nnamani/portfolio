@@ -1,0 +1,101 @@
+/* css presets */
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  color: #cb8e4f;
+}
+
+body {
+  background-color: #dfc9b8;
+}
+nav {
+  display: flex;
+  background-color: #bb8e6a;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: black;
+  margin-bottom: 10px;
+  border-radius: 20px 20px 20px 20px;
+  width: 1000px;
+  text-align: center;
+  margin: 5px 150px 20px 150px;
+}
+#nav--items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#nav--items li {
+  display: inline;
+  margin-right: 100px;
+}
+#nav--items li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav--link:hover {
+  color: rgb(19, 142, 230);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+}
+.home--about {
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+}
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#about--section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+video {
+  width: 200px;
+  height: 300px;
+  border-radius: 40px 40px 40px 40px;
+}
+
+#list {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
